@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EXPENSE TRACKER</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.4.1/dist/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+</head>
+<body>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="columns">    
+    <form class="form-group" id="form">
+        <label>1)Expense Amount:
+            <input type="text" placeholder="Enter Expense Amount" id="i1">
+        </label>
+        <label>2)Choose Description:
+            <input type="text" placeholder="write Description" id="i2">
+        </label>
+        <label>3)choose a catagory
+        <select id="i3">
+            <option value="Food">Food</option>
+            <option value="Fuel">Fuel</option>
+            <option value="Shopping">Shopping</option>
+            <option value="Travel">Travel</option>
+            <option value="Others">Others</option>
+        </select>
+        </label>
+            <input type="submit" value="Add Expense" class="btn btn-secondary">
+    </form>
+    </div>
+   </div>
+  </div><hr>
+    <div class="container-fluid">
+    <div class="row">
+    <div class="coloumns">
+         <ul class="list-group" id="list">
+            <li class="list-group-item">100-movie-vaction
+            <button class="btn btn-danger btn-sm float-right delete">Delete Expense</button> 
+            <button class="btn btn-primary btn-sm float-right ">Edit Expense</button>  
+            </li>
+            <li class="list-group-item">200-diesel-fuel
+                <button class="btn btn-danger btn-sm float-right delete">Delete Expense</button> 
+                <button class="btn btn-primary btn-sm float-right ">Edit Expense</button>  
+            </li>
+            <li class="list-group-item">400-weekend-food
+                <button class="btn btn-danger btn-sm float-right delete">Delete Expense</button> 
+                <button class="btn btn-primary btn-sm float-right ">Edit Expense</button>  
+            </li>
+            <li class="list-group-item">2000-fun-travel
+                <button class="btn btn-danger btn-sm float-right delete">Delete Expense</button> 
+                <button class="btn btn-primary btn-sm float-right ">Edit Expense</button>  
+            </li>
+         </ul>
+    </div>
+    </div>
+  </div>
+</body>
+<script src="dom.js"></script>
+</html>
